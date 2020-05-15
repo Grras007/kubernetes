@@ -18,6 +18,9 @@ spec:
                containers:
                  - name: mysql
                    image: mysql:5.7 
+                   envFrom:
+                           - configMapRef: 
+                                name: app-configmap
 
         replicas: 2
         selector:
