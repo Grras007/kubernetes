@@ -1,0 +1,24 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+        name: myapp-deployment
+        labels:
+                app: webserver
+                type: apach-webserver
+spec:
+        template:
+            metadata:
+               name: my-first-pod-webserver
+               labels:
+                   app: webserver
+                   type: apache-server
+            spec:
+               containers:
+                 - name: nginx
+                   image: nginx 
+        replicas: 2
+        selector:
+                matchLabels:
+                        type: apache-server
+                        app: webserver
