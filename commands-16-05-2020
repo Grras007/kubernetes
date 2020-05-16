@@ -1,0 +1,768 @@
+    1  exitt
+    2  exit
+    3  minikube start
+    4  minikube start --driver=none
+    5  apt-get  install conntrack
+    6  minikube start --driver=none
+    7  minikube status
+    8  docker version
+    9  service docker status
+   10  docker pull vimal13/apache-webserver-php
+   11  kubectl get nodes
+   12  kuectl get all \
+   13  kubectl get all
+   14  kubectl get -all
+   15  kubectl get --all
+   16  docker imagers
+   17  docker images
+   18  docker run apache --image vimal13/apache-webserver-php
+   19  docker ps
+   20  docker run apache --image vimal13/apache-webserver-php
+   21  docker run apache-webserver-php  --image vimal13/apache-webserver-php
+   22  docker run nginx --image nginx 
+   23  docker ps
+   24  kubectl get pods
+   25  kubectl run nginx --image nginx 
+   26  kubectl run apache-webserver-php  --image vimal13/apache-webserver-php
+   27  kuectl get pods
+   28  kubectl get all
+   29  kubectl get deployment
+   30  kubectl get pods
+   31  kubectl describe pod apache-webserver-php | more
+   32  kubectl get pods -o wide
+   33  kubectl get service --url
+   34  kubectl get service --uri
+   35  kubectl get service -h
+   36  pwd
+   37  kubectl get pods -o wide
+   38  kubectl delete pod apache-webserver-php
+   39  kubectl create deployment --image= apache-webserver-php
+   40  kubectl create deployment --image=apache-webserver-php
+   41  kubectl create deployment apache-webserver-php image apache-webserver-php
+   42  kubectl create deployment apache-webserver-php --image apache-webserver-php
+   43  kubectl get all
+   44  kubectl get pods
+   45  kubectl delete pod apache-webserver-php-5c4c8b5754-884bt
+   46  kubectl get all
+   47  kubectl delete deployment deployment.apps/apache-webserver-php 
+   48  kubectl delete deployment apache-webserver-php 
+   49  kubectl get all
+   50  kubectl create deployment apache-webserver-php --image apache-webserver-php
+   51  kubectl get pods
+   52  kubectl describe pod apache-webserver-php-5c4c8b5754-qsgfz
+   53  kubectl get all
+   54  kubectl delete deployment apache-webserver-php
+   55  docker pull negins
+   56  docker pull nginx
+   57  docker images
+   58  kubectl create deployment nginx --image nginx
+   59  kuectl get all
+   60  kubectl get pods
+   61  kubectl get pods -o wide
+   62  kubectl get all
+   63  kubectl get service --URL
+   64  kubectl get service --URI
+   65  ku ectl getr service
+   66  kubectl get service
+   67  kubectl expose deployment nginx --port 80 --type=NodePort
+   68  kubectl get service
+   69  kubectl get service --URI
+   70  kubectl get service --URL
+   71  kubectl server nginx --url
+   72  kubectl service nginx --url
+   73  kubectl get service
+   74  kubectl service nginx --yrl
+   75  kubectl service nginx --url
+   76  kubectl scale deployment nginx --replicas=3
+   77  kubectl get pods
+   78  kubectl get all -o wide
+   79  kuectl get delete pod pod/nginx-f89759699-rwggv
+   80  kubectl get delete pod pod/nginx-f89759699-rwggv
+   81  kubectl get delete pod nginx-f89759699-rwggv
+   82  kubectl  delete pod nginx-f89759699-rwggv
+   83  kubectl get pods
+   84  kubectl get pods all
+   85  kubectl get pods -o wide
+   86  kubectl get service
+   87  kubectl service nginx --url
+   88  minikube status
+   89  minikube service nginx --url
+   90  curl 
+   91  minikube service nginx --url
+   92  http://172.31.24.159:30970
+   93  curl http://172.31.24.159:30970
+   94  history
+   95  history > kubernetes-command-`date`
+   96  history > kubernetes-command-`$(date)`
+   97  history > kubernetes-command-13052020
+   98  ls -la
+   99  rm kubernetes-command-
+  100  kubectl get namespace 
+  101  kubectl get namespace --all
+  102  kubectl describe namespac default 
+  103  kubectl describe namespace default 
+  104  kubectl get all
+  105  kubectl describe deployment nginx
+  106  kubectl describe deployment nginx | more
+  107  kubectl get deployment
+  108  kubectl get deployment -0 yaml
+  109  kubectl get deployment -o yaml
+  110  kubectl get deployment -o yaml | more
+  111  kubectl get all
+  112  history | grep -i expose
+  113  history | grep -i scale
+  114  kubectl get deployment 
+  115  kubectl get replica-setr
+  116  kubectl get replica-set
+  117  kubectl get replica-sets
+  118  kuectl get all
+  119  kubectl get all
+  120  kubectkl get replicaset
+  121  kubectl get replicaset
+  122  kubectl delete deployment nginx
+  123  kubectl get all
+  124  kubect ldelete service nginx
+  125  kubectl ldelete service nginx
+  126  kubectl delete service nginx
+  127  kubectl get all
+  128  exit
+  129  minikube status
+  130  pwd
+  131  minikube start
+  132  docker ps
+  133  kubectl get pods
+  134  docker images 
+  135  pwd
+  136  vi Dockerfile
+  137  ls -la
+  138  docker build -t yogi:v1 /root/Dockerfile
+  139  docker build -t yogi:v1 Dockerfile
+  140  service status docker
+  141  service  docker status
+  142  kubectl get addons
+  143  kubectl dashboard
+  144  minikube dashboard
+  145  firewall-cmd --add-port=38245/tcp --permanent
+  146  minikube dashboard
+  147  cd kube/pods/
+  148  cat replica-controller.yaml 
+  149  vi replicasets.yaml 
+  150  kubectl create -f replicasets.yaml 
+  151  cd kube/pods/
+  152  kubectl get pods -o wide
+  153  kubectl get all
+  154  kubectl delete replicationcontroller wevserver-replica-controller
+  155  kubectl create -f first-pod.yaml 
+  156  kubect let pods 
+  157  kubectl get pods
+  158  kubectl edit my-first-pod-webserver
+  159  kubectl edit -f my-first-pod-webserver
+  160  ls -la
+  161  kubectl edit -f first-pod.yaml 
+  162  kubectl get pods
+  163  kubectl create -f replica-controller.yaml 
+  164  kubectl get pods
+  165  kubectl get all
+  166  kubectl get pods
+  167  kubectl delete pod my-first-pod-webserver
+  168  kubectl get pods
+  169  kubectl get all -o wide
+  170  kubectl edit -f wevserver-replica-controller
+  171  kubectl edit -f replica-controller.yaml 
+  172  kubectl get all -o wide
+  173  kubectl scale --replicas=1 -f replica-controller.yaml 
+  174  kubectl get all -o wide
+  175  kubectl scale --replicas=2 -f replica-controller.yaml 
+  176  kubectl get all -o wide
+  177  kubectl scale --replicas=1  replicationcontroller wevserver-replica-controller
+  178  kubectl get all
+  179  kubectl delete replicationcontroller wevserver-replica-controller
+  180  kubectl get all
+  181  cp replica-controller.yaml replicasets.yaml
+  182  vi replicasets.yaml 
+  183  kubectl get all
+  184  kubectl create -f replicasets.yaml 
+  185  vi replicasets.yaml 
+  186  kubectl create -f replicasets.yaml 
+  187  vi replicasets.yaml 
+  188  kubectl create -f replicasets.yaml 
+  189  vi replicasets.yaml 
+  190  kubectl create -f replicasets.yaml 
+  191  vi replicasets.yaml 
+  192  kubectl create -f replicasets.yaml 
+  193  vi replicasets.yaml 
+  194  kubectl create -f replicasets.yaml 
+  195  vi replicasets.yaml 
+  196  kubectl create -f replicasets.yaml 
+  197  vi replicasets.yaml 
+  198  kubectl create -f replicasets.yaml 
+  199  vi replicasets.yaml 
+  200  kubectl create -f replicasets.yaml 
+  201  ls -la
+  202  rm -f replicasets.yaml
+  203  cp -rvf replica-controller.yaml replicasets.yaml
+  204  ls -la
+  205  view replicasets.yaml
+  206  kubectl create -f replicasets.yaml 
+  207  kubectl create -f replica-controller.yaml 
+  208  kubectl get all 
+  209  kubectl describe /wevserver-replica-controller
+  210  kubectl describe wevserver-replica-controller
+  211  kubectl describe replicationcontroller wevserver-replica-controller
+  212  ls -la
+  213  kubectl get all
+  214  kubectl delete replicationcontroller wevserver-replica-controller
+  215  vi replicasets.yaml 
+  216  kubectl create -f replicasets.yaml 
+  217  kubectl get all
+  218  ls -la
+  219  cp replica-controller.yaml deployment.yaml
+  220  vi deployment.yaml 
+  221  kubectl create -f deployment.yaml 
+  222  vi deployment.yaml 
+  223  kubectl create -f deployment.yaml 
+  224  vi deployment.yaml 
+  225  kubectl create -f deployment.yaml 
+  226  vi deployment.yaml 
+  227  kubectl create -f deployment.yaml 
+  228  vi deployment.yaml 
+  229  kubectl create -f deployment.yaml 
+  230  kubectl get all -o
+  231  kubectl get all -0 wide
+  232  kubectl get all
+  233  kubectl scale --replicas=3 deployment myapp-deployment
+  234  kubectl get ALL
+  235  kubectl get all
+  236  kubectl expose deployment myapp-deployment --port 80 --type=NodePort
+  237  kubectl get all
+  238  kubectl get all -o wide
+  239  kubectl get all
+  240  kubectl delete deployment myapp-deployment
+  241  vi replicasets.yaml 
+  242  kubectl create -f replicasets.yaml 
+  243  kubect lget all
+  244  kubectl get all
+  245  kubectl delete service myapp-deployment
+  246  kubectl get all
+  247  minikube stop
+  248  exit
+  249  minikue status
+  250  minukube status
+  251  minikube status
+  252  minikube start
+  253  minikube status
+  254  ip addr show
+  255  kubectl get pods
+  256  kubectl create deployment nginx --image=ignix
+  257  kuectl get all
+  258  kubect lget all
+  259  kubectl get all
+  260  mkdir kube
+  261  cd kube/
+  262  mkdir pods
+  263  pwd
+  264  cd pods
+  265  vi first-pod.yaml
+  266  kubectl create -f first-pod.yaml 
+  267  vi first-pod.yaml
+  268  kubectl create -f first-pod.yaml 
+  269  vi first-pod.yaml
+  270  kubectl create -f first-pod.yaml 
+  271  kubectl get pods
+  272  kubectl get all
+  273  kubectl get all -o wide
+  274  kubectl delete pod nginx-554d6bb87f-w6mc7
+  275  kubectl get all -o wide
+  276  kubectl get pods
+  277  kubectl get ds
+  278  kubectl get deployment
+  279  kubectl delete deployment nginx
+  280  kubectl get pods -o wide
+  281  docker pull mysql
+  282  ls
+  283  vi first-pod.yaml 
+  284  kubectl create -f first-pod.yaml 
+  285  kubectl get pods
+  286  kubectl apply -f first-pod.yaml 
+  287  vi first-pod.yaml 
+  288  kubectl update -f first-pod.yaml 
+  289  kubectl apply  -f first-pod.yaml 
+  290  kubectl get pods
+  291  kubectl delete pod my-first-pod-webserver
+  292  kubectl create -f first-pod.yaml 
+  293  kubectl get pods
+  294  kuibectl get pods -o wide
+  295  kubectl get pods -o wide
+  296  kubectl describe pod my-first-pod-webserver | more
+  297  kubectl get all -o wide 
+  298  vi first-pod.yaml 
+  299  kubectl apply first-pod.yaml 
+  300  kubectl apply -k first-pod.yaml 
+  301  kubectl apply -f first-pod.yaml 
+  302  kubectl apply
+  303  kubectl apply -f pod/my-first-pod-webserver
+  304  kubectl get pods
+  305  kubectl delete pod my-first-pod-webserver
+  306  kubectl create -f first-pod.yaml 
+  307  pwd
+  308  vi replica-controller.yaml
+  309  vi first-pod.yaml 
+  310  vi replica-controller.yaml 
+  311  kubectl create -f replica-controller.yaml 
+  312  vi replica-controller.yaml 
+  313  kubectl create -f replica-controller.yaml 
+  314  vi replica-controller.yaml 
+  315  kubectl create -f replica-controller.yaml 
+  316  vi replica-controller.yaml 
+  317  kubectl create -f replica-controller.yaml 
+  318  kubectl get replication
+  319  kubectl get rc
+  320  kubectl get all -o wide
+  321  kubectl delete pod my-first-pod-webserver
+  322  kubectl get all -o wide
+  323  kubect lget all -o wide
+  324  kubectl get all -o wide
+  325  kubectl create -f first-pod.yaml 
+  326  kubectl get all -o wide
+  327  kubectl create -f first-pod.yaml 
+  328  kubectl get all -o wide
+  329  kubectl describe pod my-first-pod-webserver
+  330  kubectl describe pod wevserver-replica-controller-x4x4g
+  331  kubectl get pods all
+  332  kubectl get all -o wide
+  333  vi replica-controller.yaml 
+  334  kubectl edit -f  replica-controller.yaml 
+  335  kubectl get pods -all
+  336  kubectl get pods -o wide
+  337  kubectl delete pod wevserver-replica-controller-x4x4g
+  338  kubectl get pods -o wide
+  339  kubectl get pods -o wide
+  340  kubectl get pods
+  341  minikube start
+  342  kubectl  get pods
+  343  clear
+  344  kubectl get all
+  345  kubectl version
+  346  echo $KUBECONFIG
+  347  exit
+  348  echo $KUBECONFIG
+  349  exit
+  350  echo $KUBECONFIG
+  351  export  KUBECONFIG=/etc/kubernetes/admin.conf:/root/.kube/config
+  352  echo $KUBECONFIG
+  353  kubectl get all
+  354  pwd
+  355  cd kube/pods/
+  356  ls -la
+  357  cd kubernetes/
+  358  kubectl create -f deployment.yaml 
+  359  kubectl get pods 
+  360  kubectl get all
+  361  vi deployment.yaml 
+  362  kubectl get all
+  363  kubectl delete deployment myapp-deployment
+  364  kubectl create -f deployment.yaml 
+  365  vi deployment.yaml 
+  366  kubectl create -f deployment.yaml 
+  367  vi deployment.yaml 
+  368  kubectl create -f deployment.yaml 
+  369  vi deployment.yaml 
+  370  kubectl create -f deployment.yaml 
+  371  vi deployment.yaml 
+  372  kubectl create -f deployment.yaml 
+  373  vi deployment.yaml 
+  374  kubectl create -f deployment.yaml 
+  375  vi deployment.yaml 
+  376  kubectl create -f deployment.yaml 
+  377  kubectl get pods -o wide
+  378  vi deployment.yaml 
+  379  cd k
+  380  cd kube/pods/
+  381  ls -la
+  382  cd kubernetes/
+  383  kubectl scale --replicas=1 deployment deployment.yaml 
+  384  kubectl get all
+  385  vi /etc/bash.bashrc 
+  386  export KUBECONFIG=/etc/kubernetes/admin.conf:root/.kube/config
+  387  kubectl get all
+  388  kubectl get pods
+  389  kubectl get pods
+  390  echo $KUBECONFIG
+  391  export KUBECONFIG=/etc/kubernetes/admin.conf:/root/.kube/config
+  392  echo $KUBECONFIG
+  393  vi /etc/bash.bashrc 
+  394  kubectl get pods 
+  395  vi /etc/bash.bashrc 
+  396  echo $KUBECONFIG
+  397  kubectl get pods 
+  398  kubectl config view
+  399  minikube status
+  400  minikube start
+  401  kubectl get pods
+  402  minikube status
+  403  cd kube/pods/ls 0-la
+  404  ls -la
+  405  pwd
+  406  cd kube/pods/
+  407  ls -la
+  408  git remote -v
+  409  git init
+  410  git push origin master https://github.com/Grras007/kubernetes.git
+  411  git remote add origin https://github.com/Grras007/kubernetes.gitgit remote add origin https://github.com/Grras007/kubernetes.git
+  412  git remote add origin https://github.com/Grras007/kubernetes.git
+  413  git push -u origin master
+  414  git remote -v
+  415  yum intall git
+  416  apt-get install git
+  417  git push -u origin master https://github.com/Grras007/kubernetes.git
+  418  git push -u origin master
+  419  git clone https://github.com/Grras007/kubernetes.git
+  420  ls -la
+  421  mv deployment.yaml kubernetes/
+  422  mv first-pod.yaml kubernetes/
+  423  mv rep* kubernetes/
+  424  cd kubernetes/
+  425  git push -u origin master
+  426  git add .
+  427  git commit -m "minikube"
+  428  git push -u origin master
+  429  docker images | grep -i vimal
+  430  pwd
+  431  ps -ef | grep -i docker
+  432  docker images | grep -i vimal
+  433  docker run -ti nginx --image=vimal13/apache-webserver-php
+  434  docker run -ti nginx --image=nginx
+  435  pwd
+  436  docker pull mysql
+  437  ls -la
+  438  vi deployment.yaml 
+  439  docker images | grep -i mysql
+  440  vi deployment.yaml docker pull mysql:5.7
+  441  docker pull mysql:5.7
+  442  docker images | grep -i mysql
+  443  vi deployment.yaml 
+  444  kubectl create -f deployment.yaml 
+  445  vi deployment.yaml 
+  446  cat deployment.yaml 
+  447  kubectl create -f deployment.yaml 
+  448  vi deployment.yaml 
+  449  kubectl create -f deployment.yaml 
+  450  kubectl get pods
+  451  minikube status
+  452  kubectl get all
+  453  pwd
+  454  cd ..
+  455  ls -la
+  456  minkube stop
+  457  minikube stop
+  458  minikube status
+  459  minikube start
+  460  kubectl get nodes
+  461  cd kubernetes/
+  462  vi deployment.yaml 
+  463  ls -la
+  464  kubectl create deployment nginx --image=nginx
+  465  pwd
+  466  kubectl create deployment nginx --image=nginx
+  467  apt-get update
+  468  kubectl get all
+  469  jx version
+  470  apt-get install jx
+  471  jx version
+  472  echo $KUBECONFIG
+  473  kubectl get ns
+  474  minkube status
+  475  minikube status
+  476  kubectl get all
+  477  minikube start
+  478  kubectl get pods
+  479  minikube status
+  480  minikube status
+  481  minikube start
+  482  minikube status
+  483  kubectl get pods
+  484  cd kube/pods/
+  485  cd kubernetes/
+  486  ls -la
+  487  mv deployment.yaml deployment-env.yaml 
+  488  git add .
+  489  git commit -m "env"
+  490  git remote -v
+  491  git push -u origin master 
+  492  kubectl create -f deployment-env.yaml 
+  493  kuectl get all
+  494  kubectl get all
+  495  kubectl scal --replicas=1 deployment myapp-deployment
+  496  kubectl scale --replicas=1 deployment myapp-deployment
+  497  kubectl get all 
+  498  kubectl get pods
+  499  kubectl exec -it myapp-deployment-6b7bf7445c-jwjrx bash
+  500  ls -la
+  501  cp deployment-env.yaml deployment.yaml 
+  502  vi deployment.yaml 
+  503  git add .
+  504  git commit -m "deployment"
+  505  git push -u origin master
+  506  kubvectl create configmap app-config --from-literal=APP_COLOR=BLUE
+  507  kubectl create configmap app-config --from-literal=APP_COLOR=BLUE
+  508  kubect lget configmap
+  509  kubectl get configmap
+  510  kubectl delete configmap app-config
+  511  vi configmap.yaml
+  512  kubectl get all
+  513  kubectl delete deployment myapp-deployment
+  514  ls -la
+  515  cp -rvf deployment-env.yaml deployment-configmap.yaml
+  516  vi deployment-configmap.yaml 
+  517  kubectl create -f deployment-configmap.yaml 
+  518  vi deployment-configmap.yaml 
+  519  kubectl create -f deployment-configmap.yaml 
+  520  vi deployment-configmap.yaml 
+  521  kubectl create -f deployment-configmap.yaml 
+  522  vi deployment-configmap.yaml 
+  523  vi configmap.yaml
+  524  kubecte create -f configmap.yaml 
+  525  kubectl create -f configmap.yaml 
+  526  vi deployment-configmap.yaml 
+  527  ls -la
+  528  ls -ltr
+  529  kubectl create configmap app-config --from-file=configmap.yaml
+  530  kubectl get all
+  531  cat configmap.yaml 
+  532  kubectl get configmap
+  533  kubectl delete configmap app-config
+  534  kubectl create configmap app-config --from-file=configmap.yaml
+  535  kubectl get configmap
+  536  kubectl delete configmap app-config
+  537  vi configmap.yaml 
+  538  kubectl create configmap app-config --from-file=configmap.yaml
+  539  kubectl get configmap
+  540  kubectl delete configmap app-config
+  541  kubectl create configmap --from-file=configmap.yaml
+  542  kubectl create configmap --from-file=configmap.yamlpwd
+  543  pwd
+  544  git add .
+  545  git commit -m "configmap"
+  546  git push -u origin master
+  547  kubectl create configmap --from-file=configmap.yaml
+  548  kubectl create configmap config-map --from-file=configmap.yaml
+  549  kubectl get configmap
+  550  kubectl describe configmap config-map | more
+  551  kubectl get all
+  552  vi deployment-configmap.yaml 
+  553  kubectl create -f deployment-configmap.yaml 
+  554  vi deployment-configmap.yaml 
+  555  ls -ltr
+  556  cat configmap.yaml
+  557  vi deployment-configmap.yaml 
+  558  kubectl create -f deployment-configmap.yaml 
+  559  vi deployment-configmap.yaml 
+  560  kubectl create -f deployment-configmap.yaml 
+  561  kubectl get all
+  562  kubectl get configmap
+  563  kubectl get all
+  564  kubectl scale --replicas=1 deployment myapp-deployment
+  565  kubectl get configmap
+  566  kubectl get all 
+  567  kubectl describe pod myapp-deployment-5c584bcf8c-v7zz6
+  568  kubectl get configmap
+  569  kubectl get configmap -h
+  570  kubectl get configmap
+  571  kubectl get all
+  572  kubectl delete deployment /myapp-deployment
+  573  kubectl delete deployment myapp-deployment
+  574  kubect ldelete configmap config-map
+  575  kubect delete configmap config-map
+  576  kubectl delete configmap config-map
+  577  vi configmap.yaml 
+  578  kubectl create confinmap app-configmap --from-file=configmap.yaml
+  579  kubectl create configmap app-configmap --from-file=configmap.yaml
+  580  kubectl create -f deployment-configmap.yaml 
+  581  kubectl get all
+  582  kubectl describe pod myapp-deployment-5c584bcf8c-24n59
+  583  kubectl get all
+  584  kubectl describe pod myapp-deployment-5c584bcf8c-24n59 | more
+  585  exit
+  586  cd kube/pods/kubernetes/
+  587  ggit add .
+  588  git add .
+  589  git commit -m "configmap"
+  590  git push -u origin master
+  591  exit
+  592  minikube status
+  593  kubectl get pods
+  594  kubectl get all
+  595  pwd
+  596  cd kube/pods/kubernetes/
+  597  ls -la
+  598  ls -ltr
+  599  kubectl get namespace
+  600  kubectl delete  namespace dev
+  601  clear
+  602  vi namespace-resource-quota.yaml
+  603  mv namespace-resource-quota.yaml  namesapce.yaml
+  604  kubectl create -f namesapce.yaml 
+  605  kubectl get namespace
+  606  cp -rvf namesapce.yaml namespace-resource-quota.yaml
+  607  vi namespace-resource-quota.yaml 
+  608  kubectl create -f namespace-resource-quota.yaml 
+  609  kubectl get all
+  610  cat namespace-resource-quota.yaml 
+  611  kubectl get ResourceQuota
+  612  kubectl get ResourceQuota --namespace=dev
+  613  kubectl developement ResourceQuota --namespace=dev
+  614  kubectl describe ResourceQuota --namespace=dev
+  615  pwd
+  616  ls -la
+  617  kubectl create -f first-pod.yaml --namespace=dev
+  618  kubectl create -f first-pod.yaml --namespaces=dev
+  619  kubectl describe ResourceQuota --namespace=dev
+  620  kubectl get pods
+  621  kubectl create pods -f first-pod.yaml --namespace=dev
+  622  kubectl create -f first-pod.yaml 
+  623  kubectl get namespace
+  624  kubectl get pods
+  625  kubectl delete  pods my-first-pod-webserver
+  626  kubectl create -f first-pod.yaml  --namespace=dev
+  627  cat my-first-pod-webserver
+  628  cat first-pod.yaml 
+  629  q!
+  630  vi namespace-resource-quota.yaml 
+  631  kubectl create -f first-pod.yaml  --namespace=dev
+  632  cat namespace-resource-quota.yaml 
+  633  kubect get ResourceQuota
+  634  kubectl get ResourceQuota
+  635  kubectl get ResourceQuota --namespace=dev
+  636  kubectl describe  ResourceQuota --namespace=dev
+  637  kubectl edit  ResourceQuota --namespace=dev
+  638  eate -f first-pod.yaml  --namespace=dev
+  639  kubectl -f first-pod.yaml  --namespace=dev
+  640  kubectl create -f first-pod.yaml  --namespace=dev
+  641  git add .
+  642  git commit -m "namespace-ResourceQuota"
+  643  git push -u origin master
+  644  kubectl get pods
+  645  kubectl get pods --namespace=dev
+  646  free -m
+  647  top
+  648  vi first-pod.yaml 
+  649  kubectl create -f first-pod.yaml 
+  650  vi first-pod.yaml 
+  651  kubectl version.
+  652  kubectl version
+  653  minikube addons enable metrics-server
+  654  kubectl get apiservices
+  655  vi first-pod.yaml 
+  656  kubectl create -f first-pod.yaml 
+  657  kubectl create -f first-pod.yaml --namespace=dev
+  658  vi first-pod.yaml 
+  659  kubectl create -f first-pod.yaml --namespace=dev
+  660  vi namespace-resource-quota.yaml 
+  661  cat namespace-resource-quota.yaml
+  662  kubectl create -f first-pod.yaml --namespace=dev
+  663  vi first-pod.yaml 
+  664  cp first-pod.yaml first-resource-pod.yaml
+  665  vi namespace-resource-quota.yaml 
+  666  cat namespace-resource-quota.yaml
+  667  kubectl get ResourceQuota
+  668  kubectl get ResourceQuota --namespace=dev
+  669  kubectl delete  ResourceQuota compute-quota --namespace=dev
+  670  kubectl create -f namespace-resource-quota.yaml
+  671  ls -ltr
+  672  vi first-resource-pod.yaml
+  673  kubectl create -f  first-resource-pod.yaml --namespace=dev
+  674  vi first-resource-pod.yaml
+  675  kubectl create -f  first-resource-pod.yaml --namespace=dev
+  676  vi first-resource-pod.yaml
+  677  kubectl create -f  first-resource-pod.yaml --namespace=dev
+  678  Error from server (BadRequest): error when creating "first-resource-pod.yaml": Pod in version "v1" cannot be handled as a Pod: v1.Pod.Spec: v1.PodSpec.Containers: []v1.Container: v1.Container.Resources: v1.ResourceRequirements.Requests: Limits: unmarshalerDecoder: unable to parse quantity's suffix, error found in #10 byte of ...|y":"500mi"},"request|..., bigger context ...|esources":{"limits":{"cpu":"500m","memory":"500mi"},"requests":{"cpu":"400m","memory":"400mi"}}}]}}
+  679  free -m
+  680  cat /proc/cpuinfo
+  681  vi first-resource-pod.yaml
+  682  ls -la
+  683  ls -ltr
+  684  cat namespace-resource-quota.yaml
+  685  kubectl edit ResourceQuota
+  686  kubectl edit namespace-resource-quota.yaml
+  687  kubectk get ResourceQuota
+  688  kubectl get ResourceQuota --namespace=dev
+  689  kubectl edit ResourceQuota --namespace=dev
+  690  kubectl get ResourceQuota --namespace=dev
+  691  kubectl create -f first-resource-pod.yaml --namespace=dev
+  692  kubectl get nodes
+  693  kubectl get nodes -o wide
+  694  top
+  695  ls -ltr
+  696  cp -rvf replicasets.yaml deamon-sets.yaml
+  697  mv deamon-sets.yaml daemon-sets.yaml
+  698  vi daemon-sets.yaml 
+  699  kubectl create -f daemon-sets.yaml 
+  700  vi daemon-sets.yaml 
+  701  kubectl create -f daemon-sets.yaml 
+  702  vi daemon-sets.yaml 
+  703  kubectl create -f daemon-sets.yaml 
+  704  vi daemon-sets.yaml 
+  705  kubectl create -f daemon-sets.yaml 
+  706  vi daemon-sets.yaml 
+  707  kubectl create -f daemon-sets.yaml 
+  708  kubectl delete -f daemon-sets.yaml 
+  709  vi daemon-sets.yaml 
+  710  kubectl delete -f daemon-sets.yaml 
+  711  kubectl create -f daemon-sets.yaml 
+  712  vi daemon-sets.yaml 
+  713  kubectl create -f daemon-sets.yaml 
+  714  vi daemon-sets.yaml 
+  715  pwd
+  716  kubectl create -f daemon-sets.yaml 
+  717  kubectl get DaemonSet
+  718  kubectl create -f first-pod.yaml 
+  719  kubectl get DaemonSet\
+  720  kubectl get DaemonSet
+  721  kubectl get pods
+  722  kubectl delete pod my-first-pod-webserver
+  723  kubectl get pods
+  724  kubectl describe DaemonSet daemon-set-7rb7x
+  725  kubectl describe DaemonSets daemon-set-7rb7x
+  726  kubectl get DaemonSet
+  727  kubectl describe DaemonSet
+  728  kubectl edit  DaemonSet
+  729  kubectl top nodee
+  730  kubectl top node
+  731  kubectl top pod
+  732  vi event-simulator.yaml
+  733  kubectl create -f event-simulator.yaml 
+  734  kubectl get pods
+  735  kubectl get deamonset
+  736  kubectl get DaemonSet
+  737  kubectl delete DaemonSet
+  738  kubectl delete DaemonSet daemon-set
+  739  kubectl get pods
+  740  cat event-simulator.yaml 
+  741  kubectl logs -f event-simulater-pod event-simulator
+  742  kubectl get pods
+  743  kubectl describe pod event-simulater-pod
+  744  kubectl get pods
+  745  kubectl delete pod event-simulater-pod
+  746  kubectl get pods
+  747  ls -ltr
+  748  kubectl create -f deployment.yaml 
+  749  kibectl get pods
+  750  kubectl get pods
+  751  kubectl get deployment 
+  752  kubectl delete deployment  myapp-deployment
+  753  kubectl create -f first-pod.yaml 
+  754  kubect lget pods
+  755  kubectl get pods
+  756  kubectl describe pod my-first-pod-webserver | more
+  757  kubectl get pods
+  758  kubeclt edit my-first-pod-webserver
+  759  kubeclt edit pod  my-first-pod-webserver
+  760  kubectl get pods
+  761  kubectl edit first-pod.yaml 
+  762  kubect lget pods
+  763  kubect lget pod
+  764  kubectl get pod
+  765  kubectl edit pod my-first-pod-webserver
+  766  ip-172-31-3-61
+  767  kubectl get nodes -o wide
+  768  history > commands-16-05-2020
